@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        border: "var(--border)",
+      },
+      backgroundImage: {
+        "splash-dark":
+          "url(/splash/grain.png), linear-gradient(#0000ff, #00004f)",
       },
       fontFamily: {
         serif: ["Georgia", "serif"],
@@ -21,8 +26,8 @@ export default {
       },
       keyframes: {
         bob: {
-          "0%, 100%": { transform: "translateY(0)" },
-          "50%": { transform: "translateY(-20px)" },
+          "0%, 100%": { transform: "translate3d(0, 0, 0)" },
+          "50%": { transform: "translate3d(0, -24px, 0)" },
         },
       },
     },
