@@ -62,7 +62,7 @@ export default function Home() {
           <div className="absolute -top-1/2 sm:-top-1/3 -left-10 sm:left-10 md:left-80 z-0 h-[640px] w-[640px] sm:h-[800px] sm:w-[800px] animate-[spin_500s_infinite] opacity-50">
             <Blob />
           </div>
-          <div className="mx-auto my-20 lg:my-32 max-w-[480px] sm:max-w-[736px] animate-[bob_12s_ease-in-out_infinite] relative z-10">
+          <div className="mx-auto my-20 lg:my-32 max-w-[480px] sm:max-w-[832px] animate-[bob_12s_ease-in-out_infinite] relative z-10">
             <h1 className="font-bold leading-none text-6xl sm:text-9xl md:text-[118px] lg:text-9xl">
               <span className="block sm:pl-2">Let</span>
               <span className="relative -top-1 sm:-top-4 block font-normal text-center font-serif text-[72px] sm:text-[140px] md:text-[160px] lg:text-[176px]">
@@ -72,8 +72,8 @@ export default function Home() {
             </h1>
             <div className="max-w-[420px] sm:max-w-full pt-7 leading-snug text-2xl md:text-[28px] md:pl-3.5">
               <p>
-                Hedgy is a personal recruiter who refers top tech workers to
-                their ideal startup.
+                Job applications are dead. Get a warm referral to your ideal
+                startup.
               </p>
             </div>
           </div>
@@ -145,15 +145,17 @@ export default function Home() {
         </div>
 
         {/* Bottom CTA Section */}
-        <div className="md:grid md:grid-cols-2 pt-20 md:pt-10 pb-4 border-t border-white/20 mt-20">
+        <div className="md:grid md:grid-cols-2 pb-4 mt-20">
           <div className="xl:max-w-[640px]">
             <p className="mt-12 max-w-3xl text-4xl font-bold">
-              We connect exceptional tech talent with their ideal startup
-              opportunities.
+              Flip the model –<br />
+              startups apply to you.
             </p>
             <p className="mt-7 pr-5 xl:pr-3 text-2xl leading-normal pb-16 lg:pb-24 opacity-90">
-              Through personalized recruiting and targeted outreach, we help top
-              professionals discover roles they'd actually want to move for.
+              We do the work to surface only opportunities you'd actually move
+              for. Our confidential, always-on recruiting approach eliminates
+              the exhausting back-and-forth typically required to find the right
+              role.
             </p>
           </div>
           <div className="md:border-l border-white/20 md:pl-8 xl:px-12 2xl:px-16 pb-4 md:pb-10 lg:pb-3 md:self-center">
@@ -161,14 +163,10 @@ export default function Home() {
               <h2 className="border-t border-white/20 md:border-none text-[84px] font-bold leading-none pt-16 md:pt-4 lg:pt-0">
                 Learn more.
               </h2>
-              <p className="mt-8 max-w-lg text-2xl leading-normal lg:max-w-xl opacity-90">
-                Visit Hedgy to see how we help top tech professionals find their
-                next opportunity.
-              </p>
             </div>
             <a
               href="https://hedgy.works"
-              className="block text-center text-2xl font-bold py-8 border-2 border-white w-full hover:bg-white hover:text-blue-900 transition-colors"
+              className="rounded-full transition-all ease-linear items-center duration-75 justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:cursor-not-allowed text-white bg-transparent border-white shadow-[-3px_3px_0_white] active:translate-x-[-2px] active:translate-y-[2px] active:shadow-none hover:translate-x-[-1px] hover:translate-y-[1px] hover:shadow-[-1px_1px_0_white] px-6 block text-2xl font-bold py-8 border-2 w-full text-center"
               target="_blank"
               rel="noopener noreferrer"
             >
