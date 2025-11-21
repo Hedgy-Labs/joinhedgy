@@ -72,16 +72,8 @@ export default function Home() {
             </h1>
             <div className="max-w-[420px] sm:max-w-full pt-7 leading-snug text-2xl md:text-[28px] md:pl-3.5">
               <p>
-                Join Hedgy is the candidate sourcing arm of{" "}
-                <a
-                  href="https://hedgy.works"
-                  className="underline hover:opacity-80 transition-opacity"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Hedgy
-                </a>
-                .
+                Hedgy is a personal recruiter who refers top tech workers to
+                their ideal startup.
               </p>
             </div>
           </div>
