@@ -154,7 +154,6 @@ export default function Home() {
             <p className="mt-7 pr-5 xl:pr-3 text-2xl leading-normal pb-16 lg:pb-24 opacity-90">
               Through personalized recruiting and targeted outreach, we help top
               professionals discover roles they'd actually want to move for.
-              We're transparent about being the candidate sourcing arm of Hedgy.
             </p>
           </div>
           <div className="md:border-l border-white/20 md:pl-8 xl:px-12 2xl:px-16 pb-4 md:pb-10 lg:pb-3 md:self-center">
