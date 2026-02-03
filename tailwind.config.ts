@@ -18,6 +18,7 @@ export default {
           "url(/splash/grain.png), linear-gradient(#0000ff, #00004f)",
       },
       fontFamily: {
+        sans: ["var(--font-sans)", "sans-serif"],
         serif: ["var(--font-serif)", "serif"],
       },
       animation: {
