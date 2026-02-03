@@ -18,7 +18,7 @@ export default {
           "url(/splash/grain.png), linear-gradient(#0000ff, #00004f)",
       },
       fontFamily: {
-        serif: ["Georgia", "serif"],
+        serif: ["var(--font-serif)", "serif"],
       },
       animation: {
         spin: "spin 500s linear infinite",
